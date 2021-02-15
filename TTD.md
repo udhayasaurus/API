@@ -44,7 +44,7 @@ The following table details the required parameter and attribute values. Support
 
 
 + Request (application/json)
-
+~~~
             {
   "PartnerId": "sample string 1",
   "AdvertiserId": "sample string 1",
@@ -169,7 +169,7 @@ The following table details the required parameter and attribute values. Support
   ],
   "VettingStatus": "Rejected"
 }
-
+~~~
 + Response 201 (application/json)
 
     + Headers
@@ -334,7 +334,7 @@ by TradeDesk in the response call during the first attempt to create the adverti
             Location: /advertiser/{advertiserId}
 
     + Body
-
+~~~
 {
   "PartnerId": "sample string 1",
   "AdvertiserId": "sample string 1",
@@ -459,7 +459,7 @@ by TradeDesk in the response call during the first attempt to create the adverti
   ],
   "VettingStatus": "Rejected"
 }
-
+~~~
 
 # Data Structures
 
