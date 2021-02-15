@@ -177,7 +177,7 @@ The following table details the required parameter and attribute values. Support
             Location: /advertiser
 
     + Body
-```
+~~~
             {
   "PartnerId": "sample string 1",
   "AdvertiserId": "sample string 1",
@@ -302,7 +302,7 @@ The following table details the required parameter and attribute values. Support
   ],
   "VettingStatus": "Rejected"
 }
-```
+~~~
 
 
 ### Retrieving an Advertiser [GET/advertiser/{advertiserId}]
