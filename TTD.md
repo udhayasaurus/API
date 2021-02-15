@@ -44,7 +44,7 @@ The following table details the required parameter and attribute values. Support
 
 
 + Request (application/json)
-
+~~~
             {
   "PartnerId": "sample string 1",
   "AdvertiserId": "sample string 1",
@@ -169,7 +169,7 @@ The following table details the required parameter and attribute values. Support
   ],
   "VettingStatus": "Rejected"
 }
-
+~~~
 + Response 201 (application/json)
 
     + Headers
@@ -306,8 +306,7 @@ The following table details the required parameter and attribute values. Support
 
 
 ### Retrieving an Advertiser [GET/advertiser/{advertiserId}]
-Retrieve an existing advertiser by ID. This is the ID that was originally created and returned
-by TradeDesk in the response call during the first attempt to create the advertiser.
+Retrieve an existing advertiser by ID. This is the ID that was originally created and returned by TradeDesk in the response call during the first attempt to create the advertiser.
 
 |                Parameter Name                |       Type       |                                                                                                                                                                                                                                                                                                                                        Description                                                                                                                                                                                                                                                                                                                                        | Required /Optional? |
 |:--------------------------------------------:|:----------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
